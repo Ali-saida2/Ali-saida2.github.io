@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1769e0">
+  <meta name="description" content="Ali Alsaida — Information Engineering student and aspiring Front-End Developer. HTML, CSS, JavaScript, and React.">
+  <title>Ali Alsaida | Front-End Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Ali Alsaida home"><span class="brand-mark">A</span><span>Ali<span class="brand-dot">.</span></span></a>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+      <div class="nav-links">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#education">Education</a>
+        <a class="nav-contact" href="#contact">Contact <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> INFORMATION ENGINEERING STUDENT</div>
+        <h1>Hi, I’m Ali.<br><span class="blue-text">I build for the web.</span></h1>
+        <p class="hero-lead">An aspiring Front-End Developer focused on creating clean, responsive, and user-friendly web experiences.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#experience">Explore my experience <span>↘</span></a>
+          <a class="button button-secondary" href="#contact">Get in touch</a>
+        </div>
+        <div class="hero-meta"><span><i class="meta-icon">⌖</i> Homs, Syria</span><span><i class="meta-icon">⌘</i> Open to remote opportunities</span></div>
+      </div>
+      <div class="hero-visual">
+        <div class="photo-backdrop"></div>
+        <div class="photo-frame"><img src="assets/ali-profile.png" alt="Portrait of Ali Alsaida" fetchpriority="high"></div>
+        <div class="floating-card code-card"><span class="code-dots"><i></i><i></i><i></i></span><code><span class="code-purple">const</span> developer = {<br>&nbsp; <span class="code-blue">curious</span>: <span class="code-green">true</span>,<br>&nbsp; <span class="code-blue">learning</span>: <span class="code-green">"always"</span><br>};</code></div>
+        <div class="floating-card hello-card"><span class="hello-icon">✦</span><span>Learning by building</span></div>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="Core technologies"><div class="container trust-inner"><span>BUILDING WITH</span><b>HTML5</b><b>CSS3</b><b>JavaScript</b><b>React</b><b>C++</b></div></section>
+
+    <section class="section container" id="about">
+      <div class="section-heading"><span class="section-kicker">01 / ABOUT ME</span><h2>Curiosity turned into <span class="blue-text">code.</span></h2></div>
+      <div class="about-grid"><p class="about-intro">I’m an Information Engineering student at Homs University, specializing in Software Engineering. I enjoy turning ideas and designs into accessible, responsive interfaces—and steadily strengthening my skills through practical work.</p><div class="about-note"><span class="note-symbol">✳</span><div><h3>My approach</h3><p>Understand the problem, write clear code, test the details, and keep improving through feedback.</p></div></div></div>
+    </section>
+
+    <section class="section section-tint" id="skills"><div class="container">
+      <div class="section-heading"><span class="section-kicker">02 / TOOLKIT</span><h2>Skills I’m growing.</h2><p class="section-description">An honest snapshot of my current tools and proficiency.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card"><div class="skill-icon orange">5</div><div class="skill-content"><h3>HTML</h3><p>Semantic page structure</p><div class="skill-level"><span style="width:78%"></span></div><small>Good</small></div></article>
+        <article class="skill-card"><div class="skill-icon blue">#</div><div class="skill-content"><h3>CSS</h3><p>Responsive layouts & styling</p><div class="skill-level"><span style="width:78%"></span></div><small>Good</small></div></article>
+        <article class="skill-card"><div class="skill-icon yellow">JS</div><div class="skill-content"><h3>JavaScript</h3><p>Interactive web experiences</p><div class="skill-level"><span style="width:75%"></span></div><small>Good</small></div></article>
+        <article class="skill-card"><div class="skill-icon cyan">⚛</div><div class="skill-content"><h3>React</h3><p>Component-based UI</p><div class="skill-level"><span style="width:35%"></span></div><small>Beginner</small></div></article>
+        <article class="skill-card"><div class="skill-icon purple">C+</div><div class="skill-content"><h3>C++</h3><p>Programming fundamentals</p><div class="skill-level"><span style="width:75%"></span></div><small>Good</small></div></article>
+        <article class="skill-card"><div class="skill-icon green">Py</div><div class="skill-content"><h3>Python</h3><p>Learning the fundamentals</p><div class="skill-level"><span style="width:30%"></span></div><small>Beginner</small></div></article>
+        <article class="skill-card"><div class="skill-icon navy">DB</div><div class="skill-content"><h3>SQL</h3><p>Querying relational data</p><div class="skill-level"><span style="width:55%"></span></div><small>Intermediate</small></div></article>
+        <article class="skill-card"><div class="skill-icon pink">✎</div><div class="skill-content"><h3>Creative tools</h3><p>Canva, CapCut & InShot</p><div class="skill-level"><span style="width:75%"></span></div><small>Practical experience</small></div></article>
+      </div>
+    </div></section>
+
+    <section class="section container" id="experience">
+      <div class="section-heading"><span class="section-kicker">03 / EXPERIENCE</span><h2>Learning through <span class="blue-text">real work.</span></h2><p class="section-description">My experience with SOLARIS, where I contributed across IT and creative work.</p></div>
+      <article class="experience-card"><div class="company-mark">S</div><div class="experience-main"><div class="experience-top"><div><h3>SOLARIS</h3><p class="role">IT / Front-End, Design & Video Editing</p></div><span class="experience-duration">1 year in each area</span></div><p>Contributed to the organisation’s website front end and supported creative communications.</p><ul><li>Worked on front-end development for the organisation’s website.</li><li>Created visual materials using Canva.</li><li>Edited videos using CapCut and InShot.</li></ul><div class="tag-row"><span>Front-End</span><span>Canva</span><span>Video Editing</span></div></div></article>
+      <div class="honesty-note"><span>↗</span><p><strong>Currently building my project portfolio.</strong> I’m working toward showcasing complete, independently built projects here as I develop my skills.</p></div>
+    </section>
+
+    <section class="section section-tint" id="education"><div class="container education-layout"><div class="section-heading"><span class="section-kicker">04 / EDUCATION</span><h2>Building strong <span class="blue-text">foundations.</span></h2></div><article class="education-card"><div class="education-icon">⌂</div><div><span class="education-date">Expected graduation: 2028</span><h3>Homs University</h3><p>Information Engineering · Software Specialization</p><span class="education-status">Fourth-year student</span></div></article></div></section>
+
+    <section class="contact-section" id="contact"><div class="container contact-inner"><div><span class="section-kicker light-kicker">05 / CONTACT</span><h2>Let’s build something <span>meaningful.</span></h2><p>I’m interested in front-end learning placements, internships, and opportunities to grow with a team.</p></div><div class="contact-links"><a href="mailto:alisaidaa12@gmail.com"><span class="contact-link-icon">✉</span><span><small>Email me</small><strong>alisaidaa12@gmail.com</strong></span><b>↗</b></a><a href="https://www.linkedin.com/in/ali-alsaida" target="_blank" rel="noreferrer"><span class="contact-link-icon">in</span><span><small>Connect on LinkedIn</small><strong>ali-alsaida</strong></span><b>↗</b></a><a href="https://github.com/Ali-saida2" target="_blank" rel="noreferrer"><span class="contact-link-icon">⌘</span><span><small>Explore my code</small><strong>GitHub profile</strong></span><b>↗</b></a></div></div></section>
+  </main>
+  <footer class="footer"><div class="container footer-inner"><a class="brand footer-brand" href="#home"><span class="brand-mark">A</span><span>Ali<span class="brand-dot">.</span></span></a><p>Designed with care · Built with HTML, CSS & JavaScript</p><a href="#home" class="back-top">Back to top ↑</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
